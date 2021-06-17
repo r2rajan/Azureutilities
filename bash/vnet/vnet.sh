@@ -1,19 +1,8 @@
 #!/bin/bash
 set +e
 # Include Configuration variables 
-. config
+. vnetconfig
 
-# # # Create Subnet01
-# # az network vnet subnet create -g $RG --vnet-name $VNET -n $SUB01 --address-prefix $SUB01ADDR
-
-# # # Create Subnet02
-# # az network vnet subnet create -g $RG --vnet-name $VNET -n $SUB02 --address-prefix $SUB02ADDR
-
-# # # Creae Subnet03
-# # az network vnet subnet create -g $RG --vnet-name $VNET -n $SUB03 --address-prefix $SUB03ADDR
-
-# # # Create Subnet 04
-# # az network vnet subnet create -g $RG --vnet-name $VNET -n $SUB04 --address-prefix $SUB04ADDR
 
 main::set_subscription() {
     AZCLI="/usr/local/bin/az"
