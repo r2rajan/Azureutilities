@@ -1,2 +1,4 @@
 # Azureutilities
-A bunch of bash, powershell scripts for Azure
+These are a bunch of scripts that i built and used while building azure cloud environment
+
+
